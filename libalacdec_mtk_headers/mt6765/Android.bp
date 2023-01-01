@@ -1,0 +1,12 @@
+mtk_cc_prebuilt_library {
+    export_include_dirs: [
+        "include",
+    ],
+    mtk_brm_platform: "mt6765",
+    mtk_product_line: "tablet",
+    mtk_src_path: "vendor/mediatek/proprietary/external/alacdec",
+    mtk_type: "cc_library_headers",
+    name: "libalacdec_mtk_headers",
+    vendor: true,
+}
+
